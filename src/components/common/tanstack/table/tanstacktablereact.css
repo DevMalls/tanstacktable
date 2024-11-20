@@ -1,0 +1,51 @@
+.tanstack-container {
+   width: 100%;
+   height: 100%;
+   padding: 12px;
+   display: flex;
+   flex-direction: column;
+   gap: 12px;
+}
+
+.table-container {
+   width: 100%;
+    border-collapse: collapse;
+}
+
+.table-header {
+   background-color: grey;
+   color:white; 
+}
+
+.table-headeritem {
+    border: 1px solid black;
+    padding: 8px;
+ }
+
+.table-cellitem {
+    border: 1px solid black;
+    text-align: center;
+ }
+
+ .table-cellitem.Other{
+    padding: 8px;
+ }
+
+ .table-cellitem.Active {
+    padding: 0px;
+    background-color: rgb(181, 234, 181);
+ }
+
+ .table-cellitem.Inactive {
+    padding: 0px;
+    background-color: rgb(254, 191, 191);
+ }
+
+ .dropdown-container {
+   display: flex;
+   justify-content: end;
+ }
+
+ .table-row:hover .edit-btn{
+   display: block;
+ }

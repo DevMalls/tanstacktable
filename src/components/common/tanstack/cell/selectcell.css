@@ -1,0 +1,22 @@
+.cell-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .select-cell {
+    min-width: 30px;
+    max-width: 100px;
+    width: 150px;
+}
+  
+  .edit-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    display: none;
+  }
+  

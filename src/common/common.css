@@ -1,0 +1,33 @@
+.outlined-btn-primary {
+    background-color: transparent;
+    color: blueviolet;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    padding-bottom: 4px;
+    border-bottom: 2px solid blueviolet;
+}
+
+input {
+    width: 100%;
+    height: 24px;
+} 
+
+.primary{
+    background-color: blueviolet;
+    color: white;
+    border: 0px solid blueviolet;
+    border-radius: 4px;
+}
+
+.secondary{
+    background-color: rgb(235, 235, 235);
+    color: black;
+    border: 0px solid rgb(235, 235, 235);;
+    border-radius: 4px;
+}
+
+.error-lbl {
+    font-size: 10px;
+    color:red;
+}

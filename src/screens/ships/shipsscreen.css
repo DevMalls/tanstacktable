@@ -1,0 +1,25 @@
+.reports-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left-container {
+    width: 100%;
+    height: 100%;
+    padding: 4px;
+    background: linear-gradient(45deg, #e9f4fc, transparent);
+}
+
+.logout-container{
+    display: flex;
+    height: 24px;
+    justify-content: end;
+    padding-bottom: 4px;
+}
+
+.content-container {
+    height: calc(100% - 24px);
+    overflow: auto;
+}
